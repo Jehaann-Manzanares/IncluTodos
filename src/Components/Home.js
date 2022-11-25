@@ -1,9 +1,15 @@
 import React from "react";
+import Header from "../Components/Header";
+import HeroSection from "./HeroSection";
+
+
+
 
 function Home (){
     return(
         <div>
-            <p>Soy el home</p>
+            <Header/>
+            <HeroSection/>
         </div>
     )
 }
