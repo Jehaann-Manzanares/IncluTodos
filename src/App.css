@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("FontsFree-Net-Circular-Std-Medium"),
+    url("./fonts/FontsFree-Net-Circular-Std-Medium.ttf") format("truetype");
+}
