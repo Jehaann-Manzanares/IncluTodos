@@ -2,7 +2,8 @@ import React, { Children } from "react";
 import styled from "styled-components";
 
 const WrapperStyled = styled.div`
-    max-width: 1312px;
+
+    max-width: 1400px;
     margin: auto;
     padding: 0 1rem;
 `
