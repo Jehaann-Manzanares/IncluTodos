@@ -74,7 +74,7 @@ function HeroSection(){
             <div className="hero__texts">
                 <span className="hero__text--tag">#inclusiva</span> 
                 <h1 className="hero__title">Una app que <br></br> nos une a todos</h1>
-                <button className="hero__btn">Haz cli aquí</button>
+             
             </div>
             <figure className="hero__img">
                 <img src={img_nina_hero}  alt="nina con sindrome down - inclutodos"></img>

@@ -15,6 +15,7 @@ function Home (){
             <HeroSection/>
             <VideoSection/>
             <CalltoAction/>
+            
         </div>
     )
 }

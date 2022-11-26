@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Wrapper from "../Helpers/wrapper";
 import Logo from "../resources/logoblanco.svg"
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -14,6 +15,7 @@ const HeaderStyled = styled.div`
         justify-content: space-between;
         align-items: center;
         position: absolute;
+        width:80%;
     }
     .logo{
         height: 15em;
@@ -51,6 +53,12 @@ const HeaderStyled = styled.div`
 
 `
 function Header(){
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      let path = `/Login`; 
+      navigate(path);
+    }
     return(
         <HeaderStyled>
             <Wrapper>
@@ -58,13 +66,13 @@ function Header(){
                     
                     <img className="logo" src={Logo}  alt="IncluTodos"></img>
                     <ul className="menu">
-                        <Link>Soluciones</Link>
+                       
                         <Link to="/Resources">Recursos</Link> 
-                        <Link>Paginas</Link>
+                      
                     </ul>
                     <div className="btns__access">
-                        <button className="btn__login">Iniciar</button>
-                        <button className="btn__signup">Registrarse</button>
+                        
+                        <button className="btn__signup" onClick={routeChange} >Iniciar</button>
                     </div>
 
                 </header>

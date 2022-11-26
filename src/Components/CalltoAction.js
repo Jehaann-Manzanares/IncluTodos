@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import imgnina from "../resources/imagenninos_calltoaction.png"
 import Wrapper from "../Helpers/wrapper";
+import { useNavigate } from "react-router-dom";
 
 const CalltoActionStyled = styled.div`
     margin-top: 3em;
@@ -46,13 +47,19 @@ const CalltoActionStyled = styled.div`
 `
 
 function CalltoAction(){
+
+    let navigate = useNavigate(); 
+    const routeChange = () =>{ 
+      let path = `/TipoUsuario`; 
+      navigate(path);
+    }
     return(
     <CalltoActionStyled>
         <Wrapper>
         <div className="call__container">
             <div className="text">
                 <p>Únete a nuestra comunidad</p>
-                <button className="btn__signup">Registrarse</button>
+                <button className="btn__signup" onClick={routeChange}>Registrarse</button>
             </div>
             <figure>
                 <img className="img" src={imgnina}></img>
