@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    .hero__background{
+        width: 78.5em;
+        height: 44em;
+        /*background-image: url("./resources/herosectionbackground.svg");*/
+        background-position:center;
+        background-size: contain;
+    }
+
+    .hero__message{
+        margin-top: 9em;
+        display: none;
+
+    }
+
+    .hero__img img{
+        width: 160%;
+    }
+
+    .hero__img img {
+        width: 180%;
+    }
+
+    .Wrapper{
+        max-width: 1024px;
+    }
+
+    .container_message{
+        top: 0;
+    }
+    iframe{
+        margin-top:5em;
+        width:560px;
+         height:315px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__message{
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 5em;
+        color: white;
+    }
+}

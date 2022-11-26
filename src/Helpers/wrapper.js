@@ -9,7 +9,7 @@ const WrapperStyled = styled.div`
 `
 function Wrapper({children}){
     return(
-        <WrapperStyled>
+        <WrapperStyled className="Wrapper">
             {children}
         </WrapperStyled>
     )

@@ -6,8 +6,7 @@ import img_nina_hero from "../resources/herosectionnina.svg"
 
 const HeroSectionStyled = styled.div`
 
-    font-family: "Medium";
-
+    
    
     .hero{
         display: flex;
@@ -33,6 +32,8 @@ const HeroSectionStyled = styled.div`
     .hero__img img{
         width: 200%;
     }
+
+   
     .hero__btn{
         padding:1em 2.5em;
         background:none;
@@ -66,7 +67,7 @@ function HeroSection(){
     return(
     <HeroSectionStyled>
        
-       <img src={background}  alt="IncluTodos"></img>   
+       <img className="hero__background"    src={background}  alt="IncluTodos"></img>   
         <Wrapper>
            
         <div className="hero">
