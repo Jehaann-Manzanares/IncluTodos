@@ -2,13 +2,21 @@ import './App.css';
 import Home from './Components/Home'
 import  "./fonts/FontsFree-Net-Circular-Std-Medium.ttf"
 import  "./fonts/FontsFree-Net-Jeko-Extra-Bold.ttf"
-import { BrowserRouter } from 'react-router-dom'; 
+import Resources from './Components/Resources/Resources';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Home/>
-    </BrowserRouter>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Resources' element={<Resources/>}/>
+      </Routes>
+    </Router>
   );
 }
 

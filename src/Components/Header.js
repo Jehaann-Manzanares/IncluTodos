@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Wrapper from "../Helpers/wrapper";
 import Logo from "../resources/logoblanco.svg"
+
 
 
 const HeaderStyled = styled.div`
@@ -19,7 +21,7 @@ const HeaderStyled = styled.div`
     .menu{
         display:flex;
     }
-    .menu li{
+    .menu a{
         list-style: none;
         padding:2em;
         color:white;
@@ -56,10 +58,9 @@ function Header(){
                     
                     <img className="logo" src={Logo}  alt="IncluTodos"></img>
                     <ul className="menu">
-                        <li>Soluciones</li>
-                        <li>Recursos</li>
-                        <li>Precios</li>
-                        <li>Paginas</li>
+                        <Link>Soluciones</Link>
+                        <Link to="/Resources">Recursos</Link> 
+                        <Link>Paginas</Link>
                     </ul>
                     <div className="btns__access">
                         <button className="btn__login">Iniciar</button>
