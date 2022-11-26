@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Wrapper from "../Helpers/wrapper";
-import Logo from "../resources/logoprincipal.svg"
+import Logo from "../resources/logoblanco.svg"
 
 
 const HeaderStyled = styled.div`
-    font-family: "Medium";
-    
+    font-family: "Bold";
+    margin: 0 auto;
     .header{
         display: flex;
         justify-content: space-between;
@@ -25,12 +25,13 @@ const HeaderStyled = styled.div`
     }
 
     .btns__access{
-        
+        font-family: "Medium";
     }
     .btn__login{
         background: none;
         border: none;
         font-family: "Medium";
+        font-size: 1.1em;
 
     }
     .btn__signup{

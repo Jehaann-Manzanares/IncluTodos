@@ -43,3 +43,9 @@
   src: local("FontsFree-Net-Circular-Std-Medium"),
     url("./fonts/FontsFree-Net-Circular-Std-Medium.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("FontsFree-Net-Jeko-Extra-Bold"),
+    url("./fonts/FontsFree-Net-Jeko-Extra-Bold.ttf") format("truetype");
+}
