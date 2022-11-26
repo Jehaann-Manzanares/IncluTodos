@@ -22,6 +22,7 @@ const HeaderStyled = styled.div`
     .menu li{
         list-style: none;
         padding:2em;
+        color:white;
     }
 
     .btns__access{
@@ -32,6 +33,7 @@ const HeaderStyled = styled.div`
         border: none;
         font-family: "Medium";
         font-size: 1.1em;
+        color:white;
 
     }
     .btn__signup{
