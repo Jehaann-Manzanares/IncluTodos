@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Jehaann-Manzanares/IncluTodos/static/css/main.d9f1c483.css",
-    "main.js": "/Jehaann-Manzanares/IncluTodos/static/js/main.1a15c8c0.js",
+    "main.js": "/Jehaann-Manzanares/IncluTodos/static/js/main.4431e226.js",
     "static/js/787.9d034e4b.chunk.js": "/Jehaann-Manzanares/IncluTodos/static/js/787.9d034e4b.chunk.js",
     "static/media/herosectionbackground.svg": "/Jehaann-Manzanares/IncluTodos/static/media/herosectionbackground.13c5afa9c03f6ddb3ff6cedfadb0903c.svg",
     "static/media/herosectionnina.svg": "/Jehaann-Manzanares/IncluTodos/static/media/herosectionnina.408bc72cb4235165c73c3ddf863aad0b.svg",
@@ -10,11 +10,11 @@
     "static/media/logoblanco.svg": "/Jehaann-Manzanares/IncluTodos/static/media/logoblanco.cd43dfc180ff3d5481aebf3730978d11.svg",
     "index.html": "/Jehaann-Manzanares/IncluTodos/index.html",
     "main.d9f1c483.css.map": "/Jehaann-Manzanares/IncluTodos/static/css/main.d9f1c483.css.map",
-    "main.1a15c8c0.js.map": "/Jehaann-Manzanares/IncluTodos/static/js/main.1a15c8c0.js.map",
+    "main.4431e226.js.map": "/Jehaann-Manzanares/IncluTodos/static/js/main.4431e226.js.map",
     "787.9d034e4b.chunk.js.map": "/Jehaann-Manzanares/IncluTodos/static/js/787.9d034e4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9f1c483.css",
-    "static/js/main.1a15c8c0.js"
+    "static/js/main.4431e226.js"
   ]
 }
