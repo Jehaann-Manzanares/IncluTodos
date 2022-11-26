@@ -1,0 +1,19 @@
+{
+    "resources":[
+        {
+            "id":1,
+            "name":"Terapia para ninos con autismo",
+            "img": "img1.jpg"
+        },
+        {
+            "id":2,
+            "name":"Estimulacion del lenguaje",
+            "img": "img2.jpeg"
+        },
+        {
+            "id":3,
+            "name":"Estrategias de conducta positiva",
+            "img": "img3.jpeg"
+        }
+    ]
+}
