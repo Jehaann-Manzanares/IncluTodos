@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/IncluTodos/static/css/main.7d40fa5e.css",
-    "main.js": "/IncluTodos/static/js/main.dc61c1a3.js",
+    "main.css": "/IncluTodos/static/css/main.3b78380b.css",
+    "main.js": "/IncluTodos/static/js/main.290cae3e.js",
     "static/js/787.9d034e4b.chunk.js": "/IncluTodos/static/js/787.9d034e4b.chunk.js",
+    "static/media/imagenninos_calltoaction.png": "/IncluTodos/static/media/imagenninos_calltoaction.1c1671609a31d768b159.png",
     "static/media/herosectionbackground.svg": "/IncluTodos/static/media/herosectionbackground.13c5afa9c03f6ddb3ff6cedfadb0903c.svg",
     "static/media/herosectionnina.svg": "/IncluTodos/static/media/herosectionnina.408bc72cb4235165c73c3ddf863aad0b.svg",
     "static/media/FontsFree-Net-Jeko-Extra-Bold.ttf": "/IncluTodos/static/media/FontsFree-Net-Jeko-Extra-Bold.49a57eb17f1532d7e232.ttf",
     "static/media/FontsFree-Net-Circular-Std-Medium.ttf": "/IncluTodos/static/media/FontsFree-Net-Circular-Std-Medium.3fcb6535e39024a69e30.ttf",
     "static/media/logoblanco.svg": "/IncluTodos/static/media/logoblanco.cd43dfc180ff3d5481aebf3730978d11.svg",
     "index.html": "/IncluTodos/index.html",
-    "main.7d40fa5e.css.map": "/IncluTodos/static/css/main.7d40fa5e.css.map",
-    "main.dc61c1a3.js.map": "/IncluTodos/static/js/main.dc61c1a3.js.map",
+    "main.3b78380b.css.map": "/IncluTodos/static/css/main.3b78380b.css.map",
+    "main.290cae3e.js.map": "/IncluTodos/static/js/main.290cae3e.js.map",
     "787.9d034e4b.chunk.js.map": "/IncluTodos/static/js/787.9d034e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d40fa5e.css",
-    "static/js/main.dc61c1a3.js"
+    "static/css/main.3b78380b.css",
+    "static/js/main.290cae3e.js"
   ]
 }
